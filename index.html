@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome books</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+        <span>All Awesome books</span>
+        <ul>
+            <li>
+                <a id="#list" class="active">List</a>
+            </li>
+            <li>
+                <a id="#addNew">Add New</a>
+            </li>
+            <li>
+                <a id="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <span id="time"></span>
+    <section id="list">
+        <h2>All awesome books</h2>
+        <ul id="bookList"></ul>
+    </section>
+    <section id="addNew" class="hidden">
+        <h2>Add new book</h2>
+        <form>
+            <label>
+                <input type="text" id="titleInput" placeholder="Title" />
+            </label>
+            <br>
+            <label>
+                <input type="text" id="authorInput" placeholder="Author" />
+            </label>
+            <br>
+            <button type="button" id="submitBook">Add</button>
+        </form>
+    </section>
+    <section id="contact" class="hidden">
+        <h2>Contact</h2>
+        <p>
+        Do you have any questions or you just want to say hello?, <br/>You can reach ut to us!!
+        </p>
+        <ul>
+        <li class="contact-address">Our E-mail: email@whatever.com</li>
+        <li class="contact-address">Our Phone No: XXXXXXXXXXXX</li>
+        <li class="contact-address">Our Address: No 7 Pick a street avenue</li>
+        </ul>
+    </section>
+    <footer>
+        @copyright
+    </footer>
+    <script src="./Modules/Index.js" type="module"></script>
+</body>
+
+</html>
