@@ -13,14 +13,14 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mahdiaghaali.github.io/Awesome-books/)
+[Live Demo Link](https://mahdiaghaali.github.io/Awesome-Books-ES6/)
 
 ## How to use
 
-1. Clone the project using "git clone https://github.com/MahdiAghaali/Awesome-books"
+1. Clone the project using "git clone https://github.com/MahdiAghaali/Awesome-Books-ES6"
 2. Run the projec on a server (example: [live server on vscode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
 
-## Authors
+## Author
 
 👤 **Mahdi Aghaali**
 
