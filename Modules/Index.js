@@ -36,3 +36,16 @@ document.querySelectorAll('a').forEach((element) => {
     switchTab(e.target.id);
   });
 });
+
+const showTime = () => {
+  const currentDate = DateTime.local().toFormat('yyyy-MMM-dd');
+  const currentTime = DateTime.local().toFormat('hh:mm:ss');
+  document.getElementById('time').innerHTML = `Date: ${currentDate}  Time:${currentTime}`;
+};
+
+window.addEventListener('load', () => {
+  showTime();
+  setInterval(() => {
+    showTime();
+  }, 500);
+});
